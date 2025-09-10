@@ -37,7 +37,7 @@ textarea {
       color: var(--form-text-color);
 }
 
-input [type='submit'] {
+input[type='submit'] {
      background-color: var(--btn-color);
         color: var(--btn-text-color);
         border: none;
@@ -51,11 +51,11 @@ input [type='submit'] {
         margin: auto;
     }
 
-    imput[type='submit']:hover {
+    input[type='submit']:hover {
         transform: scale(1.05);
     }
 
-      imput[type='submit']:active {
+      input[type='submit']:active {
         transform: translate(2px);
          box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
       }

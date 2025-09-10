@@ -5,7 +5,7 @@ import freshBurger from "../../../assets/fresh-burger.png";
 import fitlift from "../../../assets/fitlift.png";
 import ProjectCard from '../../../common/ProjectCard.jsx';
 function Projects() {
-  return ( <section id="projects"  className={StyleSheet.container}>
+  return ( <section id="projects"  className={styles.Container}>
     <h1 className="sectionTitle">Projects</h1>
     <div className={styles.projectsContainer}>
       < ProjectCard src={viberr} link="https://github.com/Ade-mir/
