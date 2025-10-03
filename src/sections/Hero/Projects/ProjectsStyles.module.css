@@ -43,4 +43,28 @@
         gap: 40px;
     }
 
+}  
+
+/* Subtle, non-breaking polish */
+.container img {
+    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+    transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+}
+
+.container a:focus-visible {
+    outline: 3px solid var(--btn-color);
+    outline-offset: 4px;
+    border-radius: 16px;
+}
+
+.container h3 {
+    margin-top: 12px;
+    margin-bottom: 4px;
+    font-size: 1.1rem;
+    line-height: 1.2;
+}
+
+.container p {
+    margin: 0;
+    opacity: 0.85;
 } 
