@@ -19,7 +19,7 @@ function Contact() {
     emailjs
       .sendForm(serviceId, templateId, formRef.current, { publicKey })
       .then(() => {
-        setStatus({ state: 'sent', message: 'Message sent! I will get back to you soon.' })
+        setStatus({ state: 'sent', message: 'Message sent! I will get back to you soon (Thamk you).' })
         formRef.current?.reset()
       })
       .catch(() => {
