@@ -49,13 +49,13 @@ function Hero() {
                 <h2>Smart Contract Developer(EVM)</h2>
                 <h3>Software Developer | Builder</h3>
                 <span>
-                    <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://x.com/igoodnessiyamah?s=21" target="_blank" rel="noopener noreferrer">
                       <img src={twitterIcon} alt="Twitter icon" />           
                     </a>
-                     <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                     <a href="https://github.com/GoodnessFx" target="_blank" rel="noopener noreferrer">
                       <img src={githubIcon} alt="Github icon" />           
                     </a>
-                     <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">
+                     <a href="https://www.linkedin.com/in/goodness-iyamah-532909384?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer">
                       <img src={linkedinIcon} alt="Linkedin icon" />           
                     </a>
                 </span>
